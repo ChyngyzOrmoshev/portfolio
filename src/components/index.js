@@ -1,11 +1,21 @@
-export { default as Header } from "../components/header/Header";
-export { default as TopBar } from "../components/topbar/TopBar";
+export { default as Header } from "../components/Header/Header";
+export { default as TopBar } from "../components/Topbar/TopBar";
+export { default as About } from "../components/About/About";
+export { default as Contacts } from "../components/Contacts/Contacts";
+export { default as Portfolio } from "../components/Portfolio/Portfolio";
+export { default as Testimonials } from "../components/Testimonials/Testimonials";
+export { default as Works } from "../components/Works/Works";
 
 export { default as Logo } from "../assets/img/Logo.png";
 export { default as info } from "../assets/img/information.svg";
-export { default as services } from "../assets/img/services.svg";
+export { default as works } from "../assets/img/works.svg";
+export { default as testimonials } from "../assets/img/testimonials.svg";
 export { default as portfolio } from "../assets/img/portfolio.svg";
 export { default as telegram } from "../assets/img/icon_telegram.svg";
 export { default as gmail } from "../assets/img/icon_gmail.svg";
 export { default as instagram } from "../assets/img/icon_instagram.svg";
 export { default as facebook } from "../assets/img/icon_facebook.svg";
+export { default as contacts } from "../assets/img/contacts.svg";
+export { default as email } from "../assets/img/email.svg";
+export { default as coder } from "../assets/img/programming_languages.jpeg";
+export { default as designer } from "../assets/img/web-desi-main.jpg";
