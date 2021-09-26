@@ -9,6 +9,8 @@ function About() {
   useEffect(() => {
     init(animatedTextRef.current, {
       showCursor: true,
+      backDelay: 1500,
+      backSpeed: 60,
       strings: ["This page is made with React.js"],
     });
   }, []);

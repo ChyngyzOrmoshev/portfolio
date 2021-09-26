@@ -22,26 +22,26 @@ function TopBar() {
         <p>Designer &amp; &lt;Coder&gt;</p>
       </div>
       <div className="topbar__links">
-        <div className="topbar__link">
+        <a href="#about" className="topbar__link">
           <img src={info} alt="iconInfo" />
           <h2>About me</h2>
-        </div>
-        <div className="topbar__link">
+        </a>
+        <a href="#portfolio" className="topbar__link">
           <img src={portfolio} alt="iconPortfolio" />
           <h2>Portfolio</h2>
-        </div>
-        <div className="topbar__link">
+        </a>
+        <a href="#works" className="topbar__link">
           <img src={works} alt="iconWorks" />
           <h2>Works</h2>
-        </div>
-        <div className="topbar__link">
+        </a>
+        <a href="#testimonials" className="topbar__link">
           <img src={testimonials} alt="iconTestimonials" />
           <h2>Testimonials</h2>
-        </div>
-        <div className="topbar__link">
+        </a>
+        <a href="#contacts" className="topbar__link">
           <img src={contacts} alt="iconContacts" />
           <h2>Contacts</h2>
-        </div>
+        </a>
       </div>
       <div className="topbar__social">
         <a href="#!">

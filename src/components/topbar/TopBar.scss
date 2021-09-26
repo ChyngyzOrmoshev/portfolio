@@ -33,6 +33,8 @@
     margin: 1rem 0rem;
     padding: 0rem 2rem;
     align-items: center;
+    text-decoration: none;
+    color: #385888;
 
     h2 {
       padding: 0rem 1rem;
@@ -41,6 +43,17 @@
       font-size: 24px;
       line-height: 28px;
     }
+  }
+
+  &__link:hover {
+    background: linear-gradient(
+      to right top,
+      rgba(255, 255, 255, 0.48),
+      rgba(255, 255, 255, 0.12)
+    );
+    
+    border-radius: 2rem;
+    
   }
 
   &__social {
