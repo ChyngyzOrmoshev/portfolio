@@ -1,0 +1,25 @@
+.item {
+  width: 180px;
+  height: 40px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.48),
+    rgba(255, 255, 255, 0.12)
+  );
+  backdrop-filter: blur(100px);
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #385888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &--active {
+    background: linear-gradient(225deg, #76dbc8 0%, #017bbe 100%);
+    color: white;
+  }
+}

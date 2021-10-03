@@ -1,0 +1,113 @@
+.works {
+  position: relative;
+  color: #385888;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__slider {
+    display: flex;
+    position: absolute;
+    height: 531px;
+    left: 0;
+    transition: all 1s ease-out;
+  }
+
+  &__slider-inner {
+    width: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__slider-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 291px;
+    background: linear-gradient(
+      115.06deg,
+      rgba(255, 255, 255, 0.48) 0%,
+      rgba(255, 255, 255, 0.12) 100%
+    );
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  &__slider-top {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 20px;
+    
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      
+    }
+  }
+
+  &__slider-bottom {
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__slider-bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+    h2 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      padding: 10px 15px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      padding: 20px 15px;
+    }
+  }
+
+  &__slider-btn {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &-prev {
+      left: 15%;
+    }
+
+    &-next {
+      right: 15%;
+    }
+  }
+}
+
+.line {
+  width: 238px;
+  margin: 0 auto;
+  border: 1px solid #2094c0;
+}

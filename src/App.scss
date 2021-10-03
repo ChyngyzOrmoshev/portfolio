@@ -1,5 +1,5 @@
 .App {
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(to right top, #76dbc8, #72bee8);
   display: flex;
   align-items: center;
@@ -8,7 +8,7 @@
 
 .glass {
   background: white;
-  min-height: 80vh;
+  height: 80vh;
   width: 60%;
   background: linear-gradient(
     to right bottom,

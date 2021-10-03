@@ -12,15 +12,7 @@ function App() {
   return (
     <div className="App">
       <section className="glass">
-        <TopBar
-          items={[
-            { name: "about", link: "about" },
-            { name: "portfolio", link: "portfolio" },
-            { name: "works", link: "works" },
-            { name: "testimonials", link: "testimonials" },
-            { name: "contacts", link: "contacts" },
-          ]}
-        />
+        <TopBar />
         <div className="section">
           <About />
           <Portfolio />

@@ -1,0 +1,77 @@
+.contacts {
+  position: relative;
+  color: #385888;
+
+  &__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20% 0 0 10%;
+
+    form {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      input {
+        width: 600px;
+        height: 60px;
+        padding: 20px;
+      }
+
+      textarea {
+        width: 600px;
+        height: 400px;
+        padding: 20px;
+      }
+    }
+  }
+
+  &__head {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 42px;
+    }
+
+    button {
+      width: 200px;
+      height: 50px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #385888;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: white;
+    }
+  }
+
+  &__glass {
+    background: linear-gradient(
+      115.06deg,
+      rgba(255, 255, 255, 0.16) 0%,
+      rgba(255, 255, 255, 0.04) 100%
+    );
+    box-shadow: -1px -1px 1px rgba(158, 176, 178, 0.2),
+      1px 1px 1px rgba(195, 228, 237, 0.2),
+      -3px -3px 6px rgba(255, 255, 255, 0.2), 3px 3px 6px rgba(0, 0, 0, 0.2),
+      inset -3px -3px 6px rgba(255, 255, 255, 0.2),
+      inset 3px 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    border: none;
+  }
+}

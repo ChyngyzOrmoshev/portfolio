@@ -5,6 +5,7 @@ export { default as Contacts } from "../components/Contacts/Contacts";
 export { default as Portfolio } from "../components/Portfolio/Portfolio";
 export { default as Testimonials } from "../components/Testimonials/Testimonials";
 export { default as Works } from "../components/Works/Works";
+export { default as PortfolioCatItems } from "../components/portfolioCats/PortfolioCats";
 
 export { default as Logo } from "../assets/img/Logo.png";
 export { default as info } from "../assets/img/information.svg";
@@ -19,3 +20,10 @@ export { default as contacts } from "../assets/img/contacts.svg";
 export { default as email } from "../assets/img/email.svg";
 export { default as coder } from "../assets/img/programming_languages.jpeg";
 export { default as designer } from "../assets/img/web-desi-main.jpg";
+export { default as portfolio1 } from "../assets/img/portfolio1.jpg";
+export { default as portfolio2 } from "../assets/img/portfolio2.jpg";
+export { default as portfolio3 } from "../assets/img/portfolio3.jpg";
+export { default as prevButton } from "../assets/img/prev.svg";
+export { default as nextButton } from "../assets/img/next.svg";
+export { default as avatar } from "../assets/img/user.svg";
+export { default as star } from "../assets/img/Star.svg";
